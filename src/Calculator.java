@@ -7,7 +7,8 @@ public class Calculator {
         String value2 = null;
         String operation = null;
 
-        System.out.println("Программа калькулятор");
+        System.out.println("                       ПРОГРАММА КАЛЬКУЛЯТОР");
+        System.out.println("");
         System.out.println("Введите 2 числа и математическую операцию, соблюдая пробелы (пример: 2 * 4)");
 
         Scanner scanner = new Scanner(System.in);

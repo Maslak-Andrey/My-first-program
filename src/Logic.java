@@ -12,8 +12,8 @@ public class Logic {
             second = Integer.parseInt(value2);
         } catch (Exception e1) {
             try {
-                first = Translator.convert(value1);
-                second = Translator.convert(value2);
+                first = Translator.convertToArabic(value1);
+                second = Translator.convertToArabic(value2);
                 check = true;
             } catch (Exception e2) {
                 System.out.println("Ошибка ввода");
@@ -34,7 +34,7 @@ public class Logic {
                     result = first - second;
                 }
                 if (check){
-                System.out.println(ToRomanConvert.romanic(result) + " равное: " + result);}
+                System.out.println(Translator.convertToRoman(result));}
                 else {
                     System.out.println(result);
                 }
