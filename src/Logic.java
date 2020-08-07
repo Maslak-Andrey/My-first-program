@@ -19,7 +19,7 @@ public class Logic {
                 System.out.println("Ошибка ввода");
             }
         }
-            if (first < 0 || first > 10 || second < 0 || second > 10) {
+            if (first < 1 || first > 10 || second < 1 || second > 10) {
                 System.out.println("Ошибка ввода данных");
                 System.exit(0);
             } else {
